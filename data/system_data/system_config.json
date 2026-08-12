@@ -1,0 +1,17 @@
+{
+  "orders": {
+    "ORDERS_DB_PATH": null,
+    "ORDERS_SCHEMA_VERSION": "8"
+  },
+  "tracking": {
+    "CARRIER_STALE_AFTER_MINUTES": 30,
+    "TRACKING_TIMEOUT_MS": 2500
+  },
+  "notifications": {
+    "QUEUE_BACKLOG_THRESHOLD": 100
+  },
+  "reporting": {
+    "REPORT_QUERY_TIMEOUT_MS": 3000,
+    "MAX_REPORT_DAYS": 90
+  }
+}

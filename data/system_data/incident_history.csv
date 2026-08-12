@@ -1,0 +1,151 @@
+incident_id,opened_at,area,summary,scope,status,resolution
+INC-300,2026-06-25T14:00:00.000Z,notifications,Notification arrived late,several users,resolved,Reproduced once in test environment.
+INC-301,2026-03-03T05:00:00.000Z,orders,Order page returns an error,one user,resolved,User report arrived after the original time window.
+INC-302,2026-04-03T00:00:00.000Z,tracking,Tracking page loads slowly,one order,closed-no-repro,User report arrived after the original time window.
+INC-303,2026-05-28T19:00:00.000Z,documents,Shipment document will not download,one user,resolved,Follow-up verification succeeded.
+INC-304,2026-06-30T14:00:00.000Z,reporting,Volume report times out,one order,resolved,Reproduced once in test environment.
+INC-305,2026-04-02T13:00:00.000Z,reporting,Report numbers look incomplete,all tested requests,resolved,User report arrived after the original time window.
+INC-306,2026-06-27T00:00:00.000Z,reporting,Report numbers look incomplete,several users,resolved,User report arrived after the original time window.
+INC-307,2026-01-02T06:00:00.000Z,tracking,Tracking page loads slowly,several orders,resolved,No matching error found in the supplied logs.
+INC-308,2026-01-04T10:00:00.000Z,tracking,Tracking looks several hours old,several orders,resolved,No matching error found in the supplied logs.
+INC-309,2026-02-27T10:00:00.000Z,tracking,Tracking events are missing,all tested requests,resolved,Follow-up verification succeeded.
+INC-310,2026-05-24T12:00:00.000Z,notifications,Notification arrived late,one order,resolved,Could not reproduce after restart.
+INC-311,2026-06-01T09:00:00.000Z,reporting,Volume report times out,one order,closed-no-repro,Matched a known service error.
+INC-312,2026-04-26T07:00:00.000Z,documents,Shipment document will not download,one order,resolved,Follow-up verification succeeded.
+INC-313,2026-07-07T04:00:00.000Z,orders,One order cannot be found,one user,closed-no-repro,Matched a known service error.
+INC-314,2026-01-25T08:00:00.000Z,reporting,Report numbers look incomplete,one order,resolved,Reproduced once in test environment.
+INC-315,2026-06-15T09:00:00.000Z,reporting,Report numbers look incomplete,one user,investigating,Reproduced once in test environment.
+INC-316,2026-06-04T22:00:00.000Z,notifications,Notification arrived late,unclear,resolved,Could not reproduce after restart.
+INC-317,2026-03-30T22:00:00.000Z,tracking,Tracking events are missing,one user,resolved,Follow-up verification succeeded.
+INC-318,2026-01-14T10:00:00.000Z,tracking,Tracking events are missing,several users,closed-no-repro,Reproduced once in test environment.
+INC-319,2026-04-12T08:00:00.000Z,orders,Order page returns an error,one order,investigating,Matched a known service error.
+INC-320,2026-05-06T23:00:00.000Z,orders,One order cannot be found,unclear,resolved,Could not reproduce after restart.
+INC-321,2026-05-12T19:00:00.000Z,notifications,Notification arrived late,unclear,resolved,No matching error found in the supplied logs.
+INC-322,2026-03-30T23:00:00.000Z,tracking,Tracking events are missing,one order,resolved,Follow-up verification succeeded.
+INC-323,2026-07-22T00:00:00.000Z,tracking,Tracking page loads slowly,one order,investigating,No matching error found in the supplied logs.
+INC-324,2026-02-12T03:00:00.000Z,reporting,Volume report times out,one order,investigating,No matching error found in the supplied logs.
+INC-325,2026-07-22T14:00:00.000Z,orders,One order cannot be found,several users,resolved,User report arrived after the original time window.
+INC-326,2026-01-29T00:00:00.000Z,orders,One order cannot be found,several orders,investigating,Matched a known service error.
+INC-327,2026-04-08T04:00:00.000Z,login,User cannot sign in,one user,closed-no-repro,No matching error found in the supplied logs.
+INC-328,2026-06-13T18:00:00.000Z,tracking,Tracking page loads slowly,several orders,resolved,Reproduced once in test environment.
+INC-329,2026-05-13T04:00:00.000Z,reporting,Volume report times out,one order,resolved,Reproduced once in test environment.
+INC-330,2026-05-24T17:00:00.000Z,reporting,Volume report times out,several users,resolved,No matching error found in the supplied logs.
+INC-331,2026-01-25T12:00:00.000Z,unknown,Dashboard sometimes feels slow,one order,resolved,User report arrived after the original time window.
+INC-332,2026-06-15T10:00:00.000Z,tracking,Tracking events are missing,several users,resolved,Reproduced once in test environment.
+INC-333,2026-02-15T08:00:00.000Z,notifications,Notification arrived late,one user,resolved,No matching error found in the supplied logs.
+INC-334,2026-01-27T22:00:00.000Z,orders,One order cannot be found,several users,resolved,Follow-up verification succeeded.
+INC-335,2026-05-20T20:00:00.000Z,tracking,Tracking page loads slowly,several users,investigating,Matched a known service error.
+INC-336,2026-03-20T12:00:00.000Z,tracking,Tracking page loads slowly,one user,closed-no-repro,User report arrived after the original time window.
+INC-337,2026-06-12T03:00:00.000Z,documents,Shipment document will not download,several users,resolved,User report arrived after the original time window.
+INC-338,2026-01-03T04:00:00.000Z,login,User cannot sign in,one order,closed-no-repro,No matching error found in the supplied logs.
+INC-339,2026-06-03T20:00:00.000Z,unknown,Dashboard sometimes feels slow,one user,resolved,User report arrived after the original time window.
+INC-340,2026-03-18T07:00:00.000Z,login,User cannot sign in,unclear,resolved,User report arrived after the original time window.
+INC-341,2026-02-17T17:00:00.000Z,tracking,Tracking page loads slowly,all tested requests,resolved,User report arrived after the original time window.
+INC-342,2026-07-06T11:00:00.000Z,reporting,Report numbers look incomplete,several users,resolved,Follow-up verification succeeded.
+INC-343,2026-04-01T19:00:00.000Z,reporting,Volume report times out,one user,investigating,User report arrived after the original time window.
+INC-344,2026-05-15T21:00:00.000Z,orders,One order cannot be found,several users,resolved,No matching error found in the supplied logs.
+INC-345,2026-03-17T17:00:00.000Z,reporting,Report numbers look incomplete,several orders,investigating,Reproduced once in test environment.
+INC-346,2026-06-11T13:00:00.000Z,reporting,Report numbers look incomplete,one user,investigating,Matched a known service error.
+INC-347,2026-01-25T06:00:00.000Z,tracking,Tracking events are missing,several users,resolved,Could not reproduce after restart.
+INC-348,2026-04-19T03:00:00.000Z,tracking,Tracking looks several hours old,all tested requests,resolved,No matching error found in the supplied logs.
+INC-349,2026-07-21T19:00:00.000Z,login,User cannot sign in,all tested requests,resolved,Follow-up verification succeeded.
+INC-350,2026-01-05T17:00:00.000Z,reporting,Volume report times out,one user,resolved,User report arrived after the original time window.
+INC-351,2026-04-30T03:00:00.000Z,tracking,Tracking page loads slowly,all tested requests,investigating,Follow-up verification succeeded.
+INC-352,2026-03-03T14:00:00.000Z,tracking,Tracking looks several hours old,one user,resolved,Matched a known service error.
+INC-353,2026-03-23T19:00:00.000Z,tracking,Tracking events are missing,unclear,resolved,User report arrived after the original time window.
+INC-354,2026-02-18T23:00:00.000Z,orders,Order page returns an error,all tested requests,investigating,Matched a known service error.
+INC-355,2026-01-01T23:00:00.000Z,reporting,Volume report times out,one user,closed-no-repro,Reproduced once in test environment.
+INC-356,2026-03-21T11:00:00.000Z,tracking,Tracking looks several hours old,several users,resolved,Reproduced once in test environment.
+INC-357,2026-03-26T17:00:00.000Z,tracking,Tracking page loads slowly,several orders,closed-no-repro,Reproduced once in test environment.
+INC-358,2026-06-22T13:00:00.000Z,unknown,Dashboard sometimes feels slow,one user,investigating,No matching error found in the supplied logs.
+INC-359,2026-02-26T15:00:00.000Z,orders,Order page returns an error,several users,resolved,No matching error found in the supplied logs.
+INC-360,2026-01-01T21:00:00.000Z,documents,Shipment document will not download,one order,resolved,User report arrived after the original time window.
+INC-361,2026-06-27T12:00:00.000Z,notifications,Notification arrived late,several orders,resolved,Matched a known service error.
+INC-362,2026-03-12T07:00:00.000Z,notifications,Notification arrived late,several orders,resolved,User report arrived after the original time window.
+INC-363,2026-04-03T11:00:00.000Z,tracking,Tracking looks several hours old,all tested requests,closed-no-repro,No matching error found in the supplied logs.
+INC-364,2026-02-02T09:00:00.000Z,documents,Shipment document will not download,all tested requests,investigating,Matched a known service error.
+INC-365,2026-06-12T12:00:00.000Z,reporting,Report numbers look incomplete,one user,investigating,Matched a known service error.
+INC-366,2026-02-09T11:00:00.000Z,login,User cannot sign in,all tested requests,closed-no-repro,Reproduced once in test environment.
+INC-367,2026-05-03T21:00:00.000Z,unknown,Dashboard sometimes feels slow,all tested requests,resolved,No matching error found in the supplied logs.
+INC-368,2026-04-21T01:00:00.000Z,orders,One order cannot be found,several orders,resolved,Reproduced once in test environment.
+INC-369,2026-04-23T09:00:00.000Z,unknown,Dashboard sometimes feels slow,all tested requests,resolved,User report arrived after the original time window.
+INC-370,2026-05-27T17:00:00.000Z,reporting,Volume report times out,one order,resolved,No matching error found in the supplied logs.
+INC-371,2026-06-21T16:00:00.000Z,notifications,Notification arrived late,one user,resolved,User report arrived after the original time window.
+INC-372,2026-05-13T07:00:00.000Z,orders,Order page returns an error,one user,resolved,Matched a known service error.
+INC-373,2026-03-04T09:00:00.000Z,tracking,Tracking events are missing,all tested requests,resolved,Follow-up verification succeeded.
+INC-374,2026-07-29T11:00:00.000Z,reporting,Volume report times out,all tested requests,resolved,Reproduced once in test environment.
+INC-375,2026-03-23T01:00:00.000Z,documents,Shipment document will not download,unclear,resolved,Matched a known service error.
+INC-376,2026-03-05T21:00:00.000Z,reporting,Report numbers look incomplete,one order,resolved,Reproduced once in test environment.
+INC-377,2026-06-12T18:00:00.000Z,login,User cannot sign in,one order,resolved,Could not reproduce after restart.
+INC-378,2026-04-21T10:00:00.000Z,login,User cannot sign in,one user,investigating,Follow-up verification succeeded.
+INC-379,2026-07-13T04:00:00.000Z,tracking,Tracking page loads slowly,one order,resolved,No matching error found in the supplied logs.
+INC-380,2026-01-01T23:00:00.000Z,reporting,Report numbers look incomplete,several orders,resolved,User report arrived after the original time window.
+INC-381,2026-06-24T04:00:00.000Z,login,User cannot sign in,all tested requests,resolved,User report arrived after the original time window.
+INC-382,2026-02-01T11:00:00.000Z,reporting,Report numbers look incomplete,one user,investigating,Reproduced once in test environment.
+INC-383,2026-05-22T21:00:00.000Z,notifications,Notification arrived late,unclear,resolved,Could not reproduce after restart.
+INC-384,2026-07-19T06:00:00.000Z,login,User cannot sign in,several users,resolved,Could not reproduce after restart.
+INC-385,2026-07-01T06:00:00.000Z,orders,One order cannot be found,one user,closed-no-repro,Could not reproduce after restart.
+INC-386,2026-07-24T02:00:00.000Z,notifications,Notification arrived late,one user,resolved,Follow-up verification succeeded.
+INC-387,2026-04-09T08:00:00.000Z,documents,Shipment document will not download,several orders,investigating,Reproduced once in test environment.
+INC-388,2026-05-04T19:00:00.000Z,login,User cannot sign in,unclear,resolved,User report arrived after the original time window.
+INC-389,2026-04-29T09:00:00.000Z,tracking,Tracking looks several hours old,several users,resolved,Matched a known service error.
+INC-390,2026-07-16T02:00:00.000Z,unknown,Dashboard sometimes feels slow,one order,investigating,User report arrived after the original time window.
+INC-391,2026-02-28T15:00:00.000Z,documents,Shipment document will not download,one order,closed-no-repro,No matching error found in the supplied logs.
+INC-392,2026-03-04T22:00:00.000Z,orders,One order cannot be found,several orders,resolved,Matched a known service error.
+INC-393,2026-01-31T09:00:00.000Z,tracking,Tracking page loads slowly,all tested requests,investigating,Matched a known service error.
+INC-394,2026-03-08T13:00:00.000Z,tracking,Tracking page loads slowly,all tested requests,resolved,Matched a known service error.
+INC-395,2026-03-01T12:00:00.000Z,orders,One order cannot be found,one order,resolved,Could not reproduce after restart.
+INC-396,2026-02-20T00:00:00.000Z,tracking,Tracking page loads slowly,several users,resolved,Matched a known service error.
+INC-397,2026-06-29T10:00:00.000Z,reporting,Volume report times out,all tested requests,resolved,Could not reproduce after restart.
+INC-398,2026-03-26T11:00:00.000Z,orders,One order cannot be found,unclear,resolved,No matching error found in the supplied logs.
+INC-399,2026-01-05T08:00:00.000Z,orders,One order cannot be found,several users,closed-no-repro,Could not reproduce after restart.
+INC-400,2026-02-18T11:00:00.000Z,reporting,Volume report times out,one order,resolved,Follow-up verification succeeded.
+INC-401,2026-04-11T18:00:00.000Z,tracking,Tracking looks several hours old,one user,resolved,Follow-up verification succeeded.
+INC-402,2026-07-07T19:00:00.000Z,notifications,Notification arrived late,one user,resolved,No matching error found in the supplied logs.
+INC-403,2026-01-19T03:00:00.000Z,orders,Order page returns an error,one order,resolved,Reproduced once in test environment.
+INC-404,2026-01-08T08:00:00.000Z,notifications,Notification arrived late,several orders,investigating,User report arrived after the original time window.
+INC-405,2026-03-23T20:00:00.000Z,orders,One order cannot be found,unclear,investigating,Could not reproduce after restart.
+INC-406,2026-04-04T08:00:00.000Z,unknown,Dashboard sometimes feels slow,all tested requests,resolved,User report arrived after the original time window.
+INC-407,2026-06-26T15:00:00.000Z,documents,Shipment document will not download,several orders,resolved,Reproduced once in test environment.
+INC-408,2026-01-26T21:00:00.000Z,unknown,Dashboard sometimes feels slow,one order,investigating,Follow-up verification succeeded.
+INC-409,2026-04-07T13:00:00.000Z,orders,Order page returns an error,one user,resolved,No matching error found in the supplied logs.
+INC-410,2026-06-24T01:00:00.000Z,notifications,Notification arrived late,several users,closed-no-repro,Follow-up verification succeeded.
+INC-411,2026-03-26T00:00:00.000Z,login,User cannot sign in,one order,resolved,Reproduced once in test environment.
+INC-412,2026-01-17T23:00:00.000Z,login,User cannot sign in,one order,resolved,Follow-up verification succeeded.
+INC-413,2026-07-30T00:00:00.000Z,orders,Order page returns an error,several users,investigating,Reproduced once in test environment.
+INC-414,2026-05-23T09:00:00.000Z,unknown,Dashboard sometimes feels slow,several orders,closed-no-repro,Could not reproduce after restart.
+INC-415,2026-03-01T06:00:00.000Z,documents,Shipment document will not download,several orders,investigating,Follow-up verification succeeded.
+INC-416,2026-02-22T15:00:00.000Z,login,User cannot sign in,one user,resolved,Follow-up verification succeeded.
+INC-417,2026-03-16T15:00:00.000Z,reporting,Report numbers look incomplete,one user,resolved,Matched a known service error.
+INC-418,2026-02-10T06:00:00.000Z,unknown,Dashboard sometimes feels slow,one user,resolved,User report arrived after the original time window.
+INC-419,2026-02-19T00:00:00.000Z,unknown,Dashboard sometimes feels slow,several orders,resolved,Follow-up verification succeeded.
+INC-420,2026-06-10T19:00:00.000Z,unknown,Dashboard sometimes feels slow,several orders,resolved,Follow-up verification succeeded.
+INC-421,2026-05-20T04:00:00.000Z,documents,Shipment document will not download,one order,resolved,Could not reproduce after restart.
+INC-422,2026-06-25T05:00:00.000Z,login,User cannot sign in,all tested requests,resolved,Follow-up verification succeeded.
+INC-423,2026-05-30T12:00:00.000Z,tracking,Tracking page loads slowly,one order,investigating,Follow-up verification succeeded.
+INC-424,2026-02-04T19:00:00.000Z,reporting,Volume report times out,all tested requests,resolved,User report arrived after the original time window.
+INC-425,2026-04-05T11:00:00.000Z,notifications,Notification arrived late,one user,resolved,User report arrived after the original time window.
+INC-426,2026-02-18T05:00:00.000Z,documents,Shipment document will not download,unclear,closed-no-repro,Follow-up verification succeeded.
+INC-427,2026-06-12T09:00:00.000Z,documents,Shipment document will not download,one user,resolved,Matched a known service error.
+INC-428,2026-01-16T20:00:00.000Z,documents,Shipment document will not download,several orders,resolved,User report arrived after the original time window.
+INC-429,2026-02-16T18:00:00.000Z,notifications,Notification arrived late,unclear,investigating,User report arrived after the original time window.
+INC-430,2026-04-23T00:00:00.000Z,tracking,Tracking looks several hours old,one user,investigating,Reproduced once in test environment.
+INC-431,2026-05-08T13:00:00.000Z,unknown,Dashboard sometimes feels slow,one user,resolved,No matching error found in the supplied logs.
+INC-432,2026-07-28T13:00:00.000Z,reporting,Volume report times out,several orders,resolved,Could not reproduce after restart.
+INC-433,2026-02-26T18:00:00.000Z,unknown,Dashboard sometimes feels slow,all tested requests,resolved,Matched a known service error.
+INC-434,2026-03-11T19:00:00.000Z,reporting,Report numbers look incomplete,all tested requests,resolved,No matching error found in the supplied logs.
+INC-435,2026-03-19T00:00:00.000Z,notifications,Notification arrived late,several orders,resolved,User report arrived after the original time window.
+INC-436,2026-01-21T01:00:00.000Z,orders,Order page returns an error,several users,resolved,Matched a known service error.
+INC-437,2026-06-04T15:00:00.000Z,orders,Order page returns an error,one order,investigating,User report arrived after the original time window.
+INC-438,2026-04-13T21:00:00.000Z,orders,One order cannot be found,several orders,investigating,Matched a known service error.
+INC-439,2026-02-06T07:00:00.000Z,notifications,Notification arrived late,one user,resolved,User report arrived after the original time window.
+INC-440,2026-01-14T14:00:00.000Z,orders,One order cannot be found,one user,resolved,Reproduced once in test environment.
+INC-441,2026-06-22T06:00:00.000Z,notifications,Notification arrived late,unclear,resolved,Could not reproduce after restart.
+INC-442,2026-07-15T19:00:00.000Z,documents,Shipment document will not download,one order,resolved,Matched a known service error.
+INC-443,2026-02-11T09:00:00.000Z,reporting,Volume report times out,several users,resolved,Reproduced once in test environment.
+INC-444,2026-01-01T23:00:00.000Z,tracking,Tracking page loads slowly,unclear,resolved,Reproduced once in test environment.
+INC-445,2026-01-11T07:00:00.000Z,documents,Shipment document will not download,several users,resolved,User report arrived after the original time window.
+INC-446,2026-05-26T20:00:00.000Z,unknown,Dashboard sometimes feels slow,unclear,resolved,No matching error found in the supplied logs.
+INC-447,2026-06-02T08:00:00.000Z,tracking,Tracking page loads slowly,one order,resolved,User report arrived after the original time window.
+INC-448,2026-01-12T00:00:00.000Z,login,User cannot sign in,one user,resolved,User report arrived after the original time window.
+INC-449,2026-06-07T04:00:00.000Z,documents,Shipment document will not download,several users,investigating,Follow-up verification succeeded.

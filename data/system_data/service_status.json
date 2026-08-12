@@ -1,0 +1,47 @@
+{
+  "captured_at": "2026-08-10T14:30:00.000Z",
+  "services": [
+    {
+      "name": "api",
+      "status": "healthy",
+      "latency_ms": 46,
+      "reason": "basic process checks passed"
+    },
+    {
+      "name": "auth",
+      "status": "healthy",
+      "latency_ms": 58,
+      "reason": "login dependency responding"
+    },
+    {
+      "name": "orders",
+      "status": "degraded",
+      "latency_ms": 612,
+      "reason": "database check failed"
+    },
+    {
+      "name": "tracking",
+      "status": "degraded",
+      "latency_ms": 310,
+      "reason": "one carrier source returned partial data"
+    },
+    {
+      "name": "documents",
+      "status": "healthy",
+      "latency_ms": 73,
+      "reason": "document store reachable"
+    },
+    {
+      "name": "notifications",
+      "status": "healthy",
+      "latency_ms": 66,
+      "reason": "queue within threshold"
+    },
+    {
+      "name": "reporting",
+      "status": "healthy",
+      "latency_ms": 92,
+      "reason": "analytics database responding"
+    }
+  ]
+}
