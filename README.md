@@ -19,6 +19,7 @@ data/
   docs/          - product docs (RAG source)
   system_data/   - live status, logs, incidents (tool source)
 tests/           - pytest suite
+.github/workflows/ci.yml - runs tests automatically on every push
 ```
 
 ## Running it
@@ -43,6 +44,8 @@ Open `http://127.0.0.1:8000/docs` and try `POST /chat`:
 ```bash
 pytest tests/ -v
 ```
+
+14 tests covering the tools, document ingestion, and API endpoints. These also run automatically through GitHub Actions on every push to this repo.
 
 ## Stack
 
