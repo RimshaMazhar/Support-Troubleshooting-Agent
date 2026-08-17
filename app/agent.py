@@ -1,11 +1,4 @@
-"""
-The agent itself: a router that classifies each incoming question into one
-of three paths, then hands it off to the right handler.
 
-- "document"    -> semantic search over the ParcelPilot docs (RAG)
-- "system"      -> tool calls against live system data (status, logs, incidents)
-- "conversation"-> plain chat, no retrieval or tools needed
-"""
 
 import inspect
 import json
@@ -24,9 +17,8 @@ client = OpenAI(
     base_url="https://api.groq.com/openai/v1",
 )
 
-ROUTER_MODEL = "llama-3.1-8b-instant"
-ANSWER_MODEL = "llama-3.3-70b-versatile"
-
+ROUTER_MODEL = "openai/gpt-oss-20b"
+ANSWER_MODEL = "openai/gpt-oss-120b"
 
 AVAILABLE_TOOLS = {
     "get_service_status": get_service_status,
